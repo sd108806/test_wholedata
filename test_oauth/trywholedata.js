@@ -21,6 +21,11 @@ k=obj_changesets.length;
 
 
 k--;
+
+document.write("obj_changesets.length "+obj_changesets.length+<"br/">);
+document.write("k "+k+<"br/">);
+
+
 var commit_i=0
 for (var i=0;i< obj_changesets.length; i++)
 {commit[commit_i]=obj_changesets.changesets[k];
