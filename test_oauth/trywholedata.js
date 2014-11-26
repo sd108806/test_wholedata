@@ -22,8 +22,8 @@ k=obj_changesets.length;
 
 k--;
 
-document.write("obj_changesets.length "+obj_changesets.length+<"br/">);
-document.write("k "+k+<"br/">);
+document.write("obj_changesets.length "+obj_changesets.length+ "<br/>");
+document.write("k "+k+ "<br/>");
 
 
 var commit_i=0
