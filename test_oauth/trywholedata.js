@@ -14,20 +14,20 @@ document.write("i am here2 ");
 var commit= new  Array();
 
 var k;
-if(obj_changesets.length==50)
+if(obj_changesets.changesets.length==50)
 k=49;
 else
-k=obj_changesets.length;
+k=obj_changesets.changesets.length;
 
 
 k--;
 
-document.write("obj_changesets.length "+obj_changesets.length+ "<br/>");
+document.write("obj_changesets.changesets.length "+obj_changesets.changesets.length+ "<br/>");
 document.write("k "+k+ "<br/>");
 
 
 var commit_i=0
-for (var i=0;i< obj_changesets.length; i++)
+for (var i=0;i< obj_changesets.changesets.length; i++)
 {commit[commit_i]=obj_changesets.changesets[k];
 k--;
 commit_i++;
