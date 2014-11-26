@@ -7,6 +7,7 @@ var obj_changesets=get_changesets(input_path,start, limit,consumer_key_input,con
 var total_count=obj_changesets.count;
 var total_times=total_count/50+1;    // total number of featching data
 
+document.write("i am here");
 var commit= new  Array();
 
 var k=obj_changesets.length;
@@ -18,6 +19,8 @@ k--;
 commit_i++;
 }
 
+
+document.write("i am there");
 var start0= obj_changesets.changesets[0].node;
 
 if(total_times>1)
