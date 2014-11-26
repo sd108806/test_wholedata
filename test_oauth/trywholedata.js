@@ -13,7 +13,13 @@ document.write("i am here2 ");
 
 var commit= new  Array();
 
-var k=obj_changesets.length;
+var k;
+if(obj_changesets.length==50)
+k=49;
+else
+k=obj_changesets.length;
+
+
 k--;
 var commit_i=0
 for (var i=0;i< obj_changesets.length; i++)
@@ -23,7 +29,7 @@ commit_i++;
 }
 
 
-document.write("i am there");
+document.write('internal commit.length   ' + commit.length + '<br/>');
 
 /*
 var start0= obj_changesets.changesets[0].node;
