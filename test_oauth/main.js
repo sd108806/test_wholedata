@@ -32,7 +32,7 @@ document.write('commit[0].branches[0]  ' + commit[0].branches[0]+ '<br/>');
 document.write('(commit[0].files).length  '+  (commit[0].files).length+ '<br/>'  + '<br/>'  );
 
 
-
+/*
 document.write('commit.length   ' + commit.length + '<br/>');
 document.write('commit[50].node ' + commit[50].node+ '<br/>');
 document.write('commit[50].files[0].type  ' + commit[50].files[0].type+ '<br/>');
@@ -43,7 +43,7 @@ document.write('commit[50].message  ' + commit[50].message+ '<br/>');
 document.write('commit[50].size  ' + commit[50].size+ '<br/>');
 document.write('commit[50].branches[0]  ' + commit[50].branches[0]+ '<br/>');
 document.write('(commit[50].files).length  '+  (commit[50].files).length+ '<br/>'  + '<br/>'  );
-
+*/
 
 
 

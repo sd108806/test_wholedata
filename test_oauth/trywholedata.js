@@ -2,12 +2,15 @@
 
 function get_wholedata(input_path,start, limit,consumer_key_input,consumer_secrete_input )
 {
-
+document.write("i am here1 ");
 var obj_changesets=get_changesets(input_path,start, limit,consumer_key_input,consumer_secrete_input );
 var total_count=obj_changesets.count;
-var total_times=total_count/50+1;    // total number of featching data
+var total_times=total_count/49+1;    // total number of featching data
 
-document.write("i am here");
+document.write("i am here2 ");
+
+
+
 var commit= new  Array();
 
 var k=obj_changesets.length;
@@ -21,6 +24,8 @@ commit_i++;
 
 
 document.write("i am there");
+
+/*
 var start0= obj_changesets.changesets[0].node;
 
 if(total_times>1)
@@ -40,6 +45,7 @@ commit_i++;
 }
 
 }
+*/
 
 return commit;
 
