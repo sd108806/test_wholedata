@@ -51,7 +51,7 @@ document.write('(commit[i].files).length  '+  (commit[i].files).length+ '<br/>' 
 for (var i=49*2;i<49*2+3;i++)
 {
 document.write('commit.length   ' + commit.length + '<br/>');
-document.write('for 49 50 51  ' + '<br/>');
+document.write('for 98 99 100  ' + '<br/>');
 document.write('commit[i].node ' + commit[i].node+ '<br/>');
 document.write('commit[i].files[0].type  ' + commit[i].files[0].type+ '<br/>');
 document.write('commit[i].utctimestamp  ' + commit[i].utctimestamp+ '<br/>');
@@ -66,7 +66,7 @@ document.write('(commit[i].files).length  '+  (commit[i].files).length+ '<br/>' 
 for (var i=49*3;i<49*3+3;i++)
 {
 document.write('commit.length   ' + commit.length + '<br/>');
-document.write('for 49 50 51  ' + '<br/>');
+document.write('for 147 148 149  ' + '<br/>');
 document.write('commit[i].node ' + commit[i].node+ '<br/>');
 document.write('commit[i].files[0].type  ' + commit[i].files[0].type+ '<br/>');
 document.write('commit[i].utctimestamp  ' + commit[i].utctimestamp+ '<br/>');
