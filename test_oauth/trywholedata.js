@@ -41,7 +41,7 @@ commit_i++;
 }
 
 
-document.write('internal commit.length   ' + commit.length + '<br/>');
+document.write('internal commit.length   first' + commit.length + '<br/>');
 
 
 
@@ -64,6 +64,8 @@ commit_i++;
 
 }
 }
+document.write('internal commit.length   second' + commit.length + '<br/>');
+
 
 // final 50 or 49 commmits
 if(total_times>=3)
@@ -92,7 +94,7 @@ commit_i++;
 
 }
 
-document.write("commit.length "+commit.length+ "<br/>");
+document.write("commit.length third"+commit.length+ "<br/>");
 
 return commit;
 
