@@ -95,7 +95,7 @@ num_copy_to_commit2=obj_changesets.changesets.length;
 var start_copy_point2=obj_changesets.changesets.length-1;
 
 
-for (var i=0;i< num_copy_to_commit; i++)
+for (var i=0;i< num_copy_to_commit2; i++)
 {commit[commit_i]=obj_changesets.changesets[start_copy_point2];
 start_copy_point2--;
 commit_i++;
