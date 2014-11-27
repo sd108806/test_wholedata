@@ -32,9 +32,10 @@ k--;
 document.write("obj_changesets.changesets.length "+obj_changesets.changesets.length+ "<br/>");
 document.write("k "+k+ "<br/>");
 
+var original_k=k;
 
 var commit_i=0
-for (var i=0;i< obj_changesets.changesets.length; i++)
+for (var i=0;i< original_k; i++)
 {commit[commit_i]=obj_changesets.changesets[k];
 k--;
 commit_i++;
