@@ -3,16 +3,19 @@
 function get_wholedata(input_path,start, limit,consumer_key_input,consumer_secrete_input )
 {
 
+var max_fetch=50;
+
+
 // first 50 or 49
 document.write("i am here1 ");
 var obj_changesets=get_changesets(input_path,start, limit,consumer_key_input,consumer_secrete_input );
 var total_count=obj_changesets.count;
 
 var total_times;
-if(total_count%(limit-1)!=0)
- total_times=total_count/(limit-1)+1;    // total number of featching data  instore 49 commits to the array commit
+if(total_count%(max_fetch-1)!=0)
+ total_times=total_count/(max_fetch-1)+1;    // total number of featching data  instore 49 commits to the array commit
 else
-total_times=total_count/(limit-1);
+total_times=total_count/(max_fetch-1);
 
 document.write("total_times " + total_times + "<br/>");
 
@@ -58,7 +61,7 @@ var obj_changesets=get_changesets(input_path,start0, limit,consumer_key_input,co
 document.write("obj_changesets.changesets[49].node " + obj_changesets.changesets[49].node + '<br/>');
 
 
-for(var j=(limit-1); j>0;j--)
+for(var j=(max_fetch-1); j>0;j--)
 {
 commit[commit_i]=obj_changesets.changesets[j];
 document.write("commit_i "+ commit_i +"<br/>");
