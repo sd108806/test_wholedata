@@ -16,6 +16,7 @@ document.write('obj_event.events[0].node ' + obj_event.events[0].node+ '<br/>');
 document.write('obj_event.events[0].description.commits[0].description ' + obj_event.events[0].description.commits[0].description+ '<br/>');
 */
 
+//document.write("parseInt(5/3) "+ parseInt(5/3) + "5%3" +5%3);
 var commit = new Array();
 var commit=get_wholedata(input_path,start, limit,consumer_key_input,consumer_secrete_input );
 

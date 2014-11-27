@@ -13,9 +13,9 @@ var total_count=obj_changesets.count;
 
 var total_times;
 if(total_count%(max_fetch-1)!=0)
- total_times=total_count/(max_fetch-1)+1;    // total number of featching data  instore 49 commits to the array commit
+ total_times=parseInt( total_count/(max_fetch-1) )+1;    // total number of featching data  instore 49 commits to the array commit
 else
-total_times=total_count/(max_fetch-1);
+total_times=parseInt ( total_count/(max_fetch-1) );
 
 document.write("total_times " + total_times + "<br/>");
 
