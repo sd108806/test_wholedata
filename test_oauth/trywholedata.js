@@ -68,9 +68,11 @@ document.write("commit_i "+ commit_i +"<br/>");
 commit_i++;
 
 }
+document.write("we are here1"+"<br/>");
+}
+document.write("we are here2"+"<br/>");
+}
 
-}
-}
 document.write('internal commit.length   second' + commit.length + '<br/>');
 
 
