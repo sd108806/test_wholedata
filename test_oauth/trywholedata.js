@@ -9,7 +9,7 @@ var obj_changesets=get_changesets(input_path,start, limit,consumer_key_input,con
 var total_count=obj_changesets.count;
 
 var total_times;
-if(total_count/(limit-1)!=0)
+if(total_count%(limit-1)!=0)
  total_times=total_count/(limit-1)+1;    // total number of featching data  instore 49 commits to the array commit
 else
 total_times=total_count/(limit-1);
