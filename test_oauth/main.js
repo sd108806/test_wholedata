@@ -29,8 +29,8 @@ document.write('commit[0].author  ' + commit[0].author+ '<br/>');
 document.write('commit[0].parents[0]  ' + commit[0].parents[0]+ '<br/>');
 document.write('commit[0].message  ' + commit[0].message+ '<br/>');
 document.write('commit[0].size  ' + commit[0].size+ '<br/>');
-document.write('commit[0].branches[0]  ' + commit[0].branches[0]+ '<br/>');
-document.write('(commit[0].files).length  '+  (commit[0].files).length+ '<br/>'  + '<br/>'  );
+//document.write('commit[0].branches[0]  ' + commit[0].branches[0]+ '<br/>');
+//document.write('(commit[0].files).length  '+  (commit[0].files).length+ '<br/>'  + '<br/>'  );
 
 
 for (var i=49*1;i<49*1+3;i++)
@@ -44,8 +44,8 @@ document.write('commit[i].author  ' + commit[i].author+ '<br/>');
 document.write('commit[i].parents[0]  ' + commit[i].parents[0]+ '<br/>');
 document.write('commit[i].message  ' + commit[i].message+ '<br/>');
 document.write('commit[i].size  ' + commit[i].size+ '<br/>');
-document.write('commit[i].branches[0]  ' + commit[i].branches[0]+ '<br/>');
-document.write('(commit[i].files).length  '+  (commit[i].files).length+ '<br/>'  + '<br/>'  );
+//document.write('commit[i].branches[0]  ' + commit[i].branches[0]+ '<br/>');
+//document.write('(commit[i].files).length  '+  (commit[i].files).length+ '<br/>'  + '<br/>'  );
 }
 
 for (var i=49*2;i<49*2+3;i++)
@@ -59,8 +59,8 @@ document.write('commit[i].author  ' + commit[i].author+ '<br/>');
 document.write('commit[i].parents[0]  ' + commit[i].parents[0]+ '<br/>');
 document.write('commit[i].message  ' + commit[i].message+ '<br/>');
 document.write('commit[i].size  ' + commit[i].size+ '<br/>');
-document.write('commit[i].branches[0]  ' + commit[i].branches[0]+ '<br/>');
-document.write('(commit[i].files).length  '+  (commit[i].files).length+ '<br/>'  + '<br/>'  );
+//document.write('commit[i].branches[0]  ' + commit[i].branches[0]+ '<br/>');
+//document.write('(commit[i].files).length  '+  (commit[i].files).length+ '<br/>'  + '<br/>'  );
 }
 
 for (var i=49*3;i<49*3+3;i++)
@@ -74,8 +74,8 @@ document.write('commit[i].author  ' + commit[i].author+ '<br/>');
 document.write('commit[i].parents[0]  ' + commit[i].parents[0]+ '<br/>');
 document.write('commit[i].message  ' + commit[i].message+ '<br/>');
 document.write('commit[i].size  ' + commit[i].size+ '<br/>');
-document.write('commit[i].branches[0]  ' + commit[i].branches[0]+ '<br/>');
-document.write('(commit[i].files).length  '+  (commit[i].files).length+ '<br/>'  + '<br/>'  );
+//document.write('commit[i].branches[0]  ' + commit[i].branches[0]+ '<br/>');
+//document.write('(commit[i].files).length  '+  (commit[i].files).length+ '<br/>'  + '<br/>'  );
 }
 
 document.write('commit.length   ' + commit.length + '<br/>');
@@ -86,8 +86,8 @@ document.write('commit[length-1].author  ' + commit[length-1].author+ '<br/>');
 document.write('commit[length-1].parents[0]  ' + commit[length-1].parents[0]+ '<br/>');
 document.write('commit[length-1].message  ' + commit[length-1].message+ '<br/>');
 document.write('commit[length-1].size  ' + commit[length-1].size+ '<br/>');
-document.write('commit[length-1].branches[0]  ' + commit[length-1].branches[0]+ '<br/>');
-document.write('(commit[length-1].files).length  '+  (commit[length-1].files).length+ '<br/>'  + '<br/>'  );
+//document.write('commit[length-1].branches[0]  ' + commit[length-1].branches[0]+ '<br/>');
+//document.write('(commit[length-1].files).length  '+  (commit[length-1].files).length+ '<br/>'  + '<br/>'  );
 
 
 //document.write('commit[20].node ' + commit[20].node+ '<br/>');
