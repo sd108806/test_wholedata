@@ -43,7 +43,7 @@ commit_i++;
 }
 
 
-document.write('internal commit.length   first' + commit.length + '<br/>');
+//document.write('internal commit.length   first' + commit.length + '<br/>');
 
 
 
@@ -57,24 +57,24 @@ for(var i=0; i< (total_times-2); i++)
 var start0= obj_changesets.changesets[0].node;
 
 var obj_changesets=get_changesets(input_path,start0, limit,consumer_key_input,consumer_secrete_input );
-document.write("obj_changesets.changesets[49].node " + obj_changesets.changesets[49].node + '<br/>');
+//document.write("obj_changesets.changesets[49].node " + obj_changesets.changesets[49].node + '<br/>');
 
 
 for(var j=(max_fetch-1); j>0;j--)
 {
 commit[commit_i]=obj_changesets.changesets[j];
-document.write("commit_i "+ commit_i +"<br/>");
+//document.write("commit_i "+ commit_i +"<br/>");
 commit_i++;
 
 }
 
-document.write("i "+ i+"<br/>");
-document.write("total_times "+ total_times+ "<br/>");
+//document.write("i "+ i+"<br/>");
+//document.write("total_times "+ total_times+ "<br/>");
 }
-document.write("we are here2"+"<br/>");
+//document.write("we are here2"+"<br/>");
 }
 
-document.write('internal commit.length   second' + commit.length + '<br/>');
+//document.write('internal commit.length   second' + commit.length + '<br/>');
 
 
 // final 50 or 49 commmits
@@ -103,7 +103,7 @@ commit_i++;
 
 }
 
-document.write("commit.length third"+commit.length+ "<br/>");
+//document.write("commit.length third"+commit.length+ "<br/>");
 
 return commit;
 
