@@ -90,14 +90,14 @@ k2=49;
 else
 k2=obj_changesets.changesets.length;
 
-
+var original_k2=k2;
 k2--;
 
 document.write("obj_changesets.changesets.length "+obj_changesets.changesets.length+ "<br/>");
 document.write("k2 "+k2+ "<br/>");
 
 
-for (var i=0;i< obj_changesets.changesets.length; i++)
+for (var i=0;i< original_k2; i++)
 {commit[commit_i]=obj_changesets.changesets[k2];
 k2--;
 commit_i++;
