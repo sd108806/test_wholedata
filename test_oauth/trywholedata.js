@@ -14,7 +14,7 @@ if(total_count/(limit-1)!=0)
 else
 total_times=total_count/(limit-1);
 
-document.write("i am here2 ");
+document.write("total_times " + total_times + "<br/>");
 
 
 
@@ -55,6 +55,8 @@ for(var i=0; i< (total_times-2); i++)
 var start0= obj_changesets.changesets[0].node;
 
 var obj_changesets=get_changesets(input_path,start0, limit,consumer_key_input,consumer_secrete_input );
+document.write("obj_changesets.changesets[49].node " + obj_changesets.changesets[49].node + '<br/>');
+
 
 for(var j=(limit-1); j>0;j--)
 {
