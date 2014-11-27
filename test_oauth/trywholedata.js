@@ -27,13 +27,12 @@ else
 k=obj_changesets.changesets.length;
 
 
-k--;
-
 document.write("obj_changesets.changesets.length "+obj_changesets.changesets.length+ "<br/>");
 document.write("k "+k+ "<br/>");
 
 var original_k=k;
 
+k--;
 var commit_i=0
 for (var i=0;i< original_k; i++)
 {commit[commit_i]=obj_changesets.changesets[k];
@@ -60,7 +59,9 @@ var obj_changesets=get_changesets(input_path,start0, limit,consumer_key_input,co
 for(var j=(limit-1); j>0;j--)
 {
 commit[commit_i]=obj_changesets.changesets[j];
+document.write("commit_i "+ commit_i +"<br/>");
 commit_i++;
+
 }
 
 }
