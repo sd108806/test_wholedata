@@ -69,6 +69,8 @@ commit_i++;
 
 }
 document.write("we are here1"+"<br/>");
+document.write("i "+ i+"<br/>");
+document.write("total_times "+ total_times+ "<br/>");
 }
 document.write("we are here2"+"<br/>");
 }
