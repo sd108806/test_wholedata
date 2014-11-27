@@ -23,23 +23,22 @@ total_times=parseInt ( total_count/(max_fetch-1) );
 
 var commit= new  Array();
 
-var k;
+var num_copy_to_commit;
 if(obj_changesets.changesets.length==50)
-k=49;
+num_copy_to_commit=49;
 else
-k=obj_changesets.changesets.length;
+num_copy_to_commit=obj_changesets.changesets.length;
 
 
-//document.write("obj_changesets.changesets.length "+obj_changesets.changesets.length+ "<br/>");
-//document.write("k "+k+ "<br/>");
 
-var original_k=k;
 
-k--;
+var start_copy_point=obj_changesets.changesets.length-1;
+
+
 var commit_i=0
-for (var i=0;i< original_k; i++)
-{commit[commit_i]=obj_changesets.changesets[k];
-k--;
+for (var i=0;i< num_copy_to_commit; i++)
+{commit[commit_i]=obj_changesets.changesets[start_copy_point];
+start_copy_point--;
 commit_i++;
 }
 
@@ -84,22 +83,21 @@ if(total_times>=3)
 var start0= obj_changesets.changesets[0].node;
 var obj_changesets=get_changesets(input_path,start0, limit,consumer_key_input,consumer_secrete_input );
 
-var k2;
+var num_copy_to_commit2;
 if(obj_changesets.changesets.length==50)
-k2=49;
+num_copy_to_commit2=49;
 else
-k2=obj_changesets.changesets.length;
-
-var original_k2=k2;
-k2--;
-
-//document.write("obj_changesets.changesets.length "+obj_changesets.changesets.length+ "<br/>");
-//document.write("k2 "+k2+ "<br/>");
+num_copy_to_commit2=obj_changesets.changesets.length;
 
 
-for (var i=0;i< original_k2; i++)
-{commit[commit_i]=obj_changesets.changesets[k2];
-k2--;
+
+
+var start_copy_point2=obj_changesets.changesets.length-1;
+
+
+for (var i=0;i< num_copy_to_commit; i++)
+{commit[commit_i]=obj_changesets.changesets[start_copy_point2];
+start_copy_point2--;
 commit_i++;
 }
 
